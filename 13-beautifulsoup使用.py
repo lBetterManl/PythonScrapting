@@ -10,8 +10,8 @@ str = '''
 </div>
 '''
 
-# 使用lxml解析方式
-soup = BeautifulSoup(str, 'html.parser')
+# 使用lxml解析方式(建议不用html.parser使用lxml)
+soup = BeautifulSoup(str, 'lxml')
 
 print(soup.title)
 print(soup.div)

@@ -1,7 +1,7 @@
 from lxml import etree
 import requests
 from fake_useragent import UserAgent
-
+# 配合chrome插件xpath使用
 url = "https://www.qidian.com/rank/yuepiao?chn=21"
 headers = {
     "User-Agent": UserAgent().chrome

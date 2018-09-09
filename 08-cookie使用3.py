@@ -42,5 +42,5 @@ def use_cookie():
 
 
 if __name__ == '__main__':
-    # get_cookie()
+    get_cookie()
     use_cookie()
